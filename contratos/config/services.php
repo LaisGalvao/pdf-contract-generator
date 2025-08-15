@@ -35,4 +35,14 @@ return [
         ],
     ],
 
+    'supabase' => [
+        'jwks' => env('SUPABASE_JWKS_URL'),
+    ],
+
+    'd4sign' => [
+        'url'     => env('D4SIGN_API_URL'),
+        'token'   => env('D4SIGN_TOKEN_API'),
+        'account' => env('D4SIGN_ACCOUNT_ID'),
+    ],
+
 ];
